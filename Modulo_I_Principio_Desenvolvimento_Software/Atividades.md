@@ -3,5 +3,43 @@
 ### Atividades
 
 - Introdução à Programação e Pensamento Computacional;
+  - Instrutora: Juliana Mascarenhas
 - Introdução ao Git e ao GitHub;
+  - Principais comandos do Git aprendidos nesta atividade
+    - Setar nome do usuário
+      - git config --global user.name "rsouzaguimaraes"
+    - Setar emial do usuário
+      - git config --global user.email "rsouzaguimaraes@gmail.com"
+      - O user.name e o user.email deverão estar preferencialmente iguais ao cadastro do GitHub.
+    - Criar novo repositório
+      - git init
+    - Verificar estado dos arquivos/diretórios
+      - git status
+    - **Adicionar arquivo/diretório (staged area)**
+    - Adicionar um arquivo em específico
+      - git add meu_arquivo.txt
+    - Adicionar um diretório em específico
+      - git add meu_diretorio
+    - Adicionar todos os arquivos/diretórios
+      - git add *
+    - **Comitar arquivo/diretório**
+    - Comitar um arquivo
+      - git commit meu_arquivo.txt
+    - Comitar vários arquivos
+      - git commit meu_arquivo.txt meu_outro_arquivo.txt
+    - Comitar informando mensagem
+      - git commit meuarquivo.txt -m "minha mensagem de commit"
+    - **Remover arquivo/diretório**
+    - Remover arquivo
+      - git rm meu_arquivo.txt
+    - Remover diretório
+      - git rm -r diretorio
+    - **Enviar arquivos/diretórios para o repositório remoto**
+    - O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+      - git push -u origin master
+    - Os demais pushes não precisam dessa informação
+      - git push
+    - **Atualizar repositório local de acordo com o repositório remoto**
+    - Atualizar os arquivos no branch atual
+      - git pull
 - Criando se Primeiro Repositório no GitHub para Compartilhar seu Progresso.
