@@ -1,7 +1,7 @@
 <html>
 
 	<head>
-		<title>Meu primeiro site em PHP! JQuary Accordion!</title>
+		<title>Meu primeiro site em PHP! JQuery Accordion!</title>
 		<meta charset="utf8"/>
 		<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
 		
