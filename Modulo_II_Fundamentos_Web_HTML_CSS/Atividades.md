@@ -19,3 +19,8 @@
 - **O que são Stacks**
 - **LPs e Termos**
 - **Construindo a primeira aplicação**
+  - Foi feito o download o XAMPP e do NotePad++
+  - O XAMPP deve ser instalado no C: e quando abrir o console de controle, deve configurar o Servido Apache a opção: Hpppd.conf, no arquivo que aparece, localizar a linha que contenha o texto "documentroot" e atualizar para o diretório que foi definido como diretório do seu projeto. Após, é inicializar o Apache.
+    - DocumentRoot "C:/WorkSpace/DIO\Geracao_Tech_Unimed_BH/Modulo_II_Fundamentos_Web_HTML_CSS/Projeto"
+      <Directory "C:/WorkSpace/DIO\Geracao_Tech_Unimed_BH/Modulo_II_Fundamentos_Web_HTML_CSS/Projeto">
+  - 
