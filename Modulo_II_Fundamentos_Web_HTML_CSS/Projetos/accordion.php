@@ -83,7 +83,7 @@
 			$(".titulo").click(function(){
 				$(".conteudo").slideUp();
 				var cont = $(this).next();
-				$(cont).slideDown("fast");     
+				$(cont).slideDown("slow");     
 			});
 		});
 		$(document).ready(function(){
