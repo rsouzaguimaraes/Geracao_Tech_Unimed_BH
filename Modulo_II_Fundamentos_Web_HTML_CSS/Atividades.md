@@ -35,4 +35,6 @@
   - Dimensão e alinhamento.
 - **Posicionando elementos com FlexBox em CSS**
   - Software Developer: Karem Santos
+  - Introdução ao curso
+  - Fundamentos de FlexBox - Parte 1
   - 
