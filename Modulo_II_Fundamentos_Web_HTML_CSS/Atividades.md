@@ -31,4 +31,8 @@
   - Como inserir imagens em seu site
   - Como organizar listas com HTML
   - Introdução e conceitos básicos do CSS3
+  - Estilizando elementos, textos e listas
+  - Dimensão e alinhamento.
+- **Posicionando elementos com FlexBox em CSS**
+  - Software Developer: Karem Santos
   - 
