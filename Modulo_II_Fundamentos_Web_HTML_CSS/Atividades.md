@@ -37,4 +37,5 @@
   - Software Developer: Karem Santos
   - Introdução ao curso
   - Fundamentos de FlexBox - Parte 1
-  - .
+  - Fundamentos de FlexBox - Parte 2
+  - Projeto Integrador
