@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex-Basis</title>
+
+    <style>
+        .flex-container{
+            max-width: 500px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: coral;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .b-auto{
+            flex-basis: auto;
+        }
+
+        .basis0{
+            flex-basis: 0;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+
+        .fg-2{
+            flex-grow: 2;
+        }
+
+        .w100{
+            flex-basis: 100px;
+        }
+
+        .flex-wrap{
+            flex-wrap: wrap;
+        }
+
+        .ordem1{
+            order: 1;
+        }
+
+        .ordem2{
+            order: 2;
+        }
+
+        .ordem3{
+            order: 3;
+        }
+    </style>
+</head>
+<body>
+    <p>flexbasis auto com flex grow 1</p>
+    <div class="flex-container">
+        <div class="item b-auto fg-1">A</div>
+        <div class="item b-auto fg-1">BBB</div>
+        <div class="item b-auto fg-1">CC</div>
+        <div class="item b-auto fg-1">DDDD</div>
+    </div>
+    
+    <p>flexbasis em 0 (zero) flex grow 1</p>
+    <div class="flex-container">
+        <div class="item basis0 fg-1">A</div>
+        <div class="item basis0 fg-1">BBB</div>
+        <div class="item basis0 fg-1">CC</div>
+        <div class="item basis0 fg-1">DDDD</div>
+    </div>
+    
+    <p>flexbasis + Width</p>
+    <div class="flex-container">
+        <div class="item w100 fg-0">A</div>
+        <div class="item w100 fg-1">BBB</div>
+        <div class="item w100 fg-2">CC</div>
+        <div class="item w100">DDDD</div>
+    </div>
+    
+    <p>flexbasis + Width</p>
+    <div class="flex-container flex-wrap">
+        <div class="item w100 fg-0">AFASDFASFFASDFADF</div>
+        <div class="item w100 fg-1">BDFADFADFFASDFASDFAFBB</div>
+        <div class="item w100 fg-2">CC</div>
+        <div class="item w100">DDDD</div>
+    </div>
+    
+    <p>flexbasis + Ordem</p>
+    <div class="flex-container flex-wrap">
+        <div class="item w100 ordem3 fg-0">AFASDFASFFASDFADF</div>
+        <div class="item w100 ordem3 fg-1">BDFADFADFFASDFASDFAFBB</div>
+        <div class="item w100 ordem2 fg-2">CC</div>
+        <div class="item w100 ordem1">DDDD</div>
+    </div>
+
+</body>
+</html>
